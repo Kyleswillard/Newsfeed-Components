@@ -166,7 +166,7 @@ const articleMaker = article => {
   div1.appendChild(p3)
   div1.appendChild(span)
 
-  span.addEventListener('click', e => {
+  span.addEventListener('click', () => {
     div1.classList.toggle('article-open');
   })
 
