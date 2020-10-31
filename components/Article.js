@@ -158,7 +158,7 @@ const articleMaker = article => {
   span.textContent = "+"
 
   //APPEND TO ARTICLE IN CORRECT ORDER
-  div1.appendChild(div1)
+
   div1.appendChild(h2)
   div1.appendChild(date)
   div1.appendChild(p1)
